@@ -12,6 +12,17 @@
 			"moby": "true"
 		},
 		"ghcr.io/devcontainers/features/node:1": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"bradlc.vscode-tailwindcss",
+				"Prisma.prisma"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
